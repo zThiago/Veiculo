@@ -7,8 +7,102 @@
     font-family: 'Poppins';
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:  whitesmoke;
 }
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.titulo_site {
+    color: #20c9ad;
+    font-size: 20px;
+}
+
+main {
+    max-width: 1220px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+.div_direita, .div_esquerda {
+    flex:1;
+}
+
+.div_direita {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_esquerdo {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+#texto_verde_titulo { 
+    color: #20c9ad;
+}
+.subtitulo {
+    margin-top: 20px;
+    max-width: 300px;
+}
+
+.subtitulo span {
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.div_carro {
+    margin-top: 38px;
+    background-image: url("./assets/car.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.titulo_direita span { 
+    color: gray;
+    font-size: 20px;
+}
+
+.div_formulario {
+    width: 70%;
+}
+
+.inputs {
+    width: 60%;
+    border: 1px solid #20c9ad;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.inputs:focus  {
+  border: 1px solid #15927d;  
+}
+
+#btn_simular {
+  width: 60%;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  background: #20c9ad;
+  border: none;
+  border-radius: 8px;
+}
+
+#btn_simular:hover {
+    background: #15927d;
+    cursor: pointer
 }

@@ -1,20 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Financiamento</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <img src="" alt="">
+        <img src="./assets/logoTitle.png" alt="logo tipo">
+        <div>
+            <span class="titulo_site">Curso de Web</span>
+        </div>
     </header>
 
-
-
-
+    <main>
+        <div class="div_esquerda">
+             <div class="titulo_esquerdo">
+                 Simule o seu <br><span id="texto_verde_titulo">
+                    financiamento
+                 </span>.
+             </div>
+             <div class="subtitulo">
+                <span>Escolha as melhores condições para o financiamento do seu veículo.</span>
+             </div>
+             <div class="div_carro">
+                
+             </div>
+        </div>
+        <div class="div_direita">
+             <div class="titulo_direita">
+                <span>Preencha os campos e simule o seu financiamento.</span>
+             </div>
+             <div class="div_formulario">
+                 <form action="" id="formulario_cotacao">
+                    <div>
+                        <input type="text" id="valor" class="inputs">
+                    </div>
+                    <div>
+                        <select id="banco" class="inputs">
+                            <option value="">Selecione...</option>
+                            <option value="banco_brasil">Banco do Brasil</option>
+                            <option value="santander">Santander</option>
+                            <option value="caixa">Caixa</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="tempo" class="inputs">
+                            <option value="">Selecione...</option>
+                            <option value="12">12 Meses</option>
+                            <option value="36">36 Meses</option>
+                            <option value="48">48 Meses</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button id="btn_simular">Simular</button>
+                    </div>
+                 </form>
+             </div>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
+
 </html>
