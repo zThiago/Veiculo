@@ -36,11 +36,16 @@ main {
     flex:1;
 }
 
+.div_esquerda {
+    margin-right: 40px;
+}
+
 .div_direita {
     background-color: rgb(231, 231, 231);
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 8px;
 }
 
 .titulo_esquerdo {
