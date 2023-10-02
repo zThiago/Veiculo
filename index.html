@@ -18,24 +18,24 @@
 
     <main>
         <div class="div_esquerda">
-             <div class="titulo_esquerdo">
-                 Simule o seu <br><span id="texto_verde_titulo">
+            <div class="titulo_esquerdo">
+                Simule o seu <br><span id="texto_verde_titulo">
                     financiamento
-                 </span>.
-             </div>
-             <div class="subtitulo">
+                </span>.
+            </div>
+            <div class="subtitulo">
                 <span>Escolha as melhores condições para o financiamento do seu veículo.</span>
-             </div>
-             <div class="div_carro">
-                
-             </div>
+            </div>
+            <div class="div_carro">
+
+            </div>
         </div>
         <div class="div_direita">
-             <div class="titulo_direita">
+            <div class="titulo_direita">
                 <span>Preencha os campos e simule o seu financiamento.</span>
-             </div>
-             <div class="div_formulario">
-                 <form action="" id="formulario_cotacao">
+            </div>
+            <div class="div_formulario">
+                <form action="" id="formulario_cotacao">
                     <div>
                         <input type="text" id="valor" class="inputs">
                     </div>
@@ -56,16 +56,46 @@
                         </select>
                     </div>
                     <div>
-                        <button id="btn_simular">Simular</button>
+                        <button type="button" id="btn_simular">Simular</button>
                     </div>
-                 </form>
-             </div>
+                </form>
+            </div>
         </div>
     </main>
 
-    <footer>
+    <div class="simulado">
+        <div class="div_esquerda">
+            <div class="titulo_simulado">
+                <span>Valor das suas parcelas:</span>
+            </div>
+            <div class="valor_simulado" id="valor_parcelas">
+                R$ 1.302,23
+            </div>
+            <div class="titulo_simulado">
+                <span>Valor final a pagar:</span>
+            </div>
+            <div class="valor_simulado" id="valor_total">
+                <span>R$ 62.507,04</span>
+            </div>
+            <div class="texto_financiamento_simulado">
+                 <span class="texto_verde_simulado">*</span> Financiamento em 48 meses.
+            </div>
+            <div>
+                <button id="btn_voltar">Voltar ao simulado</button>
+            </div>
 
-    </footer>
+            <div>
+                <span class="direitos">
+                    Todos os direitos reservados.
+                </span>
+            </div>
+        </div>
+        <div>
+            <img class="ellipse_logo" src="./assets/ellipseLogo.png" alt="simulado">
+        </div>
+        <div class="div_direita">
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
