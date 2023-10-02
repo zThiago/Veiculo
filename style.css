@@ -40,6 +40,17 @@ main {
     margin-right: 40px;
 }
 
+.ellipse_arrow {
+    position: absolute;
+    width: 80px;
+    top: 17%;
+    transition: 1s;
+}
+
+.ellipse_arrow:hover {
+    transform: scale(1.1);
+}
+
 .div_direita {
     display: flex;
     flex-direction: column;
@@ -74,6 +85,11 @@ main {
     height: 500px;
 }
 
+.titulo_direita {
+    margin-bottom: 20px;
+    width: 60%;
+}
+
 .titulo_direita span { 
     color: gray;
     font-size: 20px;
@@ -92,8 +108,19 @@ main {
     outline: none;
 }
 
+.texto_valor {
+    color: #20c9ad;
+    font-size: .75em;
+    background: white;
+    position: absolute;
+    right: 42.5em;
+    top: 17.1em;
+    width: 45px;
+    text-align: center;
+}
+
 .inputs:focus  {
-  border: 1px solid #15927d;  
+  border: 2px solid #15927d; 
 }
 
 #btn_simular {
@@ -104,11 +131,13 @@ main {
   background: #20c9ad;
   border: none;
   border-radius: 8px;
+  transition: .5s;
 }
 
 #btn_simular:hover {
     background: #15927d;
-    cursor: pointer
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .simulado {
