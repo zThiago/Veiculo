@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <img src="./assets/logoTitle.png" alt="logo tipo">
+        <img class="logo_tipo" src="./assets/logoTitle.png" alt="logo tipo">
         <div>
             <span class="titulo_site">Curso de Web</span>
         </div>
@@ -30,6 +30,9 @@
 
             </div>
         </div>
+        <div>
+            <img class="ellipse_arrow" src="./assets/ellipseArrow.png" alt="simulado">
+        </div>
         <div class="div_direita">
             <div class="titulo_direita">
                 <span>Preencha os campos e simule o seu financiamento.</span>
@@ -37,11 +40,12 @@
             <div class="div_formulario">
                 <form action="" id="formulario_cotacao">
                     <div>
+                        <span class="texto_valor">Valor</span>
                         <input type="text" id="valor" class="inputs">
                     </div>
                     <div>
                         <select id="banco" class="inputs">
-                            <option value="">Selecione...</option>
+                            <option value="">Selecione um banco</option>
                             <option value="banco_brasil">Banco do Brasil</option>
                             <option value="santander">Santander</option>
                             <option value="caixa">Caixa</option>
@@ -49,7 +53,7 @@
                     </div>
                     <div>
                         <select id="tempo" class="inputs">
-                            <option value="">Selecione...</option>
+                            <option value="">Em quanto meses?</option>
                             <option value="12">12 Meses</option>
                             <option value="36">36 Meses</option>
                             <option value="48">48 Meses</option>
