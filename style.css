@@ -41,7 +41,6 @@ main {
 }
 
 .div_direita {
-    background-color: rgb(231, 231, 231);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,4 +109,73 @@ main {
 #btn_simular:hover {
     background: #15927d;
     cursor: pointer
+}
+
+.simulado {
+    max-width: 1220px;
+    margin: auto;
+    margin-top: 100px;
+    display: none;
+}
+
+.titulo_simulado {
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+}
+
+.valor_simulado {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+.texto_financiamento_simulado {
+    font-size: 18px;
+    color: rgb(174, 174, 174);
+    font-style: italic;
+}
+.texto_verde_simulado {
+    color: #20c9ad;
+    font-weight: 500;
+}
+
+#btn_voltar {
+    margin-top: 18px;
+    color: #20c9ad;
+    background: transparent;
+    border-color: #20c9ad;
+    border-radius: 8px;
+    border-style: solid;
+    width: 50%;
+    height: 60px;
+}
+
+#btn_voltar:hover {
+    background: #20c9ad;
+    color: white;
+    cursor: pointer
+}
+
+.direitos {
+    font-size: 12px;
+    line-height: 20;
+}
+
+.ellipse_logo{
+   position: absolute;
+   z-index: 4;
+   width: 11%;
+   right: 43.25%;
+   top: 50%;
+}
+
+.simulado  .div_direita {
+    background-image: url("./assets/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+    border-radius: 0;
 }
